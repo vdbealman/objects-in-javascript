@@ -15,9 +15,9 @@
 JavaScript is **not** a true object-oriented language so these objects act more like ```key-value``` structures such as maps or dictionaries in other languages than like true objects. 
 
 When we use JavaScript objects, we create the **blueprint** and fill in the values at the same time. 
-  - Each **value** needs a ``key``` which acts similar to a variable name. Even functions are mapped onto keys.
+  - Each **value** needs a ```key``` which acts similar to a variable name. Even functions are mapped onto keys.
 
-    For example, let’s say I wanted to create a ```GameCharacter``` which had a ```name```, ```pos```, and ```health``` and     could change its ```pos``` with a ```move``` function:
+    For example, let’s say I wanted to create a ```gameCharacter``` which had a ```name```, ```pos```, and ```health``` and     could change its ```pos``` with a ```move``` function:
 
 ```
 var gameCharacter = {
